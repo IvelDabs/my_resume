@@ -4,12 +4,17 @@ import "../app/sidebar-section.css";
 
 const certifications = [
   {
-    name: "Scrimba - Frontend Developer Career Path",
+    name: "Scrimba - FullStack Developer Career Path",
     details:
-      "Comprehensive program covering React, JavaScript, UI/UX, and modern frontend workflows. Emphasized hands-on projects and real-world application design.",
+      "A project-based program covering HTML, CSS, JavaScript, React, APIs, state management, authentication, deployment, and modern fullstack workflows. Includes real-world team projects, code reviews, and portfolio development to prepare for professional fullstack roles.",
   },
   {
     name: "FreeCodeCamp Full Stack Web Development Certificate",
+    details:
+      "Intensive curriculum in JavaScript, Node.js, databases, and responsive web design. Focused on building scalable, production-ready applications.",
+  },
+  {
+    name: "Coursera - Meta Meta Front-End Developer Professional Certificate",
     details:
       "Intensive curriculum in JavaScript, Node.js, databases, and responsive web design. Focused on building scalable, production-ready applications.",
   },
