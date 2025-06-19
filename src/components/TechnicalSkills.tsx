@@ -18,15 +18,13 @@ const TechnicalSkills = () => {
 
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-[#1e3a5f] tracking-tight">
         TECHNICAL SKILLS
       </h2>
-      <div className="space-y-6">
+      <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100 space-y-4">
         {Object.entries(skills).map(([category, skillList]) => (
-          <div key={category} className="mb-4">
-            <h3 className="font-semibold text-lg mb-2 text-[#1e3a5f]">
-              {category}
-            </h3>
+          <div key={category} className="mb-2">
+            <h3 className="font-semibold text-[#1e3a5f] mb-1">{category}</h3>
             <ul className="list-disc pl-5 space-y-1 text-gray-700">
               {skillList.map((skill) => (
                 <li key={skill} className="text-sm">

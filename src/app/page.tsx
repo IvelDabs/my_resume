@@ -8,21 +8,22 @@ import SoftSkills from "../components/SoftSkills";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex flex-col md:flex-row">
       {/* Left Section - Main Content */}
-      <main className="w-2/3 p-8 bg-white">
+      <main className="w-full md:w-2/3 p-6 md:p-10 bg-white min-h-screen">
         <Summary />
         <Experience />
         <Education />
         <TechnicalSkills />
-        {/* <Projects /> */}
         <Certifications />
       </main>
 
       {/* Right Section - Profile and Contact */}
-      <aside className="w-1/3 bg-[#1e3a5f] text-white p-8">
+      <aside className="w-full md:w-1/3 bg-[#1e3a5f] text-white p-6 md:p-10 flex flex-col items-center min-h-screen">
         <Header />
-        <SoftSkills />
+        <div className="w-full max-w-xs mt-8">
+          <SoftSkills />
+        </div>
       </aside>
     </div>
   );

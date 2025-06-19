@@ -3,8 +3,10 @@ import React from "react";
 const Education = () => {
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">EDUCATION</h2>
-      <div className="space-y-4">
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-[#1e3a5f] tracking-tight">
+        EDUCATION
+      </h2>
+      <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100 space-y-4">
         <div className="mb-4">
           <div className="flex justify-between items-start">
             <div>

@@ -43,10 +43,15 @@ const Experience = () => {
 
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">EXPERIENCE</h2>
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-[#1e3a5f] tracking-tight">
+        EXPERIENCE
+      </h2>
       <div className="space-y-6">
         {experiences.map((exp, index) => (
-          <div key={index} className="mb-6">
+          <div
+            key={index}
+            className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100 mb-4"
+          >
             <div className="flex justify-between items-start mb-2">
               <div>
                 <h3 className="text-lg font-semibold text-[#1e3a5f]">

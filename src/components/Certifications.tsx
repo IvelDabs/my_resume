@@ -26,10 +26,10 @@ const Certifications = () => {
 
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">
-        KEY ACHIEVEMENTS
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-[#1e3a5f] tracking-tight">
+        CERTIFICATIONS
       </h2>
-      <div className="space-y-4">
+      <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100 space-y-2">
         {keyAchievements.map((achievement, index) => (
           <div key={index} className="mb-2">
             <h3 className="text-[#1e3a5f] font-semibold text-sm">
