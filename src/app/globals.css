@@ -37,6 +37,32 @@ body {
   .card {
     @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
   }
+
+  .sidebar {
+    @apply bg-gradient-to-br from-blue-800 to-blue-600 text-white rounded-lg p-8;
+  }
+
+  .sidebar-section {
+    @apply mb-8;
+  }
+
+  .sidebar-section h2 {
+    @apply text-lg font-semibold mb-4;
+  }
+
+  .sidebar-section ul,
+  .sidebar-section .card,
+  .sidebar-section > div {
+    @apply text-gray-200;
+  }
+
+  .sidebar-section li strong {
+    @apply text-blue-300;
+  }
+
+  .sidebar-section p {
+    @apply text-gray-200 text-sm mb-2;
+  }
 }
 
 @media print {
@@ -47,5 +73,11 @@ body {
   .card {
     box-shadow: none;
     border: 1px solid #e5e7eb;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    @apply mt-8 p-4;
   }
 }

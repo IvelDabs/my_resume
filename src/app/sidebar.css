@@ -1,0 +1,14 @@
+.sidebar-section ul li {
+  margin-bottom: 1.2rem;
+}
+.sidebar-section ul li strong {
+  color: #bae6fd;
+}
+.sidebar-section ul li ul,
+.sidebar-section ul li div,
+.sidebar-section ul li p {
+  color: #e0e7ef;
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
