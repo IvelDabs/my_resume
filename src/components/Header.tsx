@@ -32,7 +32,7 @@ const Header = () => {
             ))}
           </ul>
           <div className="header-bio-contacts">
-            <span>📍 Lagos State, Nigeria</span>
+            <span>📍 Lagos, Nigeria</span>
             <span>•</span>
             <a href="mailto:daberelvi@gmail.com">📧 daberelvi@gmail.com</a>
             <span>•</span>
