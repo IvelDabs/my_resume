@@ -27,11 +27,11 @@ const Projects = () => {
         <li key={index} style={{ marginBottom: "1.2rem" }}>
           <strong>{project.name}</strong>
           <ul
-            style={{
-              color: "#e0e7ef",
-              fontSize: "0.95rem",
-              marginLeft: "1rem",
-            }}
+          // style={{
+          //   color: "#e0e7ef",
+          //   fontSize: "0.95rem",
+          //   marginLeft: "1rem",
+          // }}
           >
             {project.details.map((detail, i) => (
               <li key={i}>{detail}</li>
