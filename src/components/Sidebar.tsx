@@ -3,6 +3,7 @@ import Projects from "./Projects";
 import Certifications from "./Certifications";
 import TechnicalSkills from "./TechnicalSkills";
 import "../app/sidebar.css";
+import "../app/sidebar-section.css";
 
 // const achievements = [
 //   {
@@ -46,7 +47,9 @@ const Sidebar = () => {
           {achievements.map((item, idx) => (
             <li key={idx}>
               <strong>{item.title}</strong>
-              <p>{item.description}</p>
+              <ul>
+                <li>{item.description}</li>
+              </ul>
             </li>
           ))}
         </ul>

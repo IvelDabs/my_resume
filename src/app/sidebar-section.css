@@ -1,0 +1,52 @@
+.sidebar-section {
+  margin-bottom: 2rem;
+}
+.sidebar-section h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.1rem;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+.sidebar-section h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  background: #bae6fd;
+  border-radius: 2px;
+  margin-top: 0.3rem;
+}
+.sidebar-section ul {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+}
+.sidebar-section ul > li {
+  margin-bottom: 1.3rem;
+  color: #e0e7ef;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+.sidebar-section ul > li > strong {
+  color: #bae6fd;
+  font-size: 1.08rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.sidebar-section ul ul {
+  list-style: circle inside;
+  margin-left: 1.2rem;
+  margin-top: 0.2rem;
+}
+.sidebar-section ul ul li {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.sidebar-section p {
+  color: #e0e7ef;
+  font-size: 1rem;
+  margin: 0.2rem 0 0.5rem 0;
+}

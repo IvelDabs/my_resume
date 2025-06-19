@@ -1,5 +1,6 @@
 import React from "react";
 import "../app/sidebar.css";
+import "../app/sidebar-section.css";
 
 const certifications = [
   {
