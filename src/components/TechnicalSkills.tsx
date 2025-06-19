@@ -2,36 +2,55 @@ import React from "react";
 
 const TechnicalSkills = () => {
   const skills = {
-    SKILLS: [
+    Languages: [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python",
       "Java",
-      "Kotlin",
-      "API Design",
-      "Kubernetes",
-      "SOA-based Services",
+      "SQL",
+      "HTML5",
+      "CSS3",
     ],
-    COURSES: ["Advanced Cloud-based Services", "Kubernetes for Developers"],
-    PASSIONS: [
-      "Cybersecurity by Innovation",
-      "Cross-Disciplinary Collaboration",
+    "Frameworks/Libraries": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Next.js",
+      "Django",
+      "Spring Boot",
     ],
+    Databases: ["PostgreSQL", "MongoDB", "MySQL", "Firebase"],
+    "DevOps & Tools": [
+      "Git",
+      "Docker",
+      "CI/CD (GitHub Actions, Jenkins)",
+      "Nginx",
+      "AWS",
+      "Azure",
+    ],
+    Testing: ["Jest", "Cypress", "Mocha", "Postman"],
+    Other: ["REST APIs", "GraphQL", "WebSockets", "Agile/Scrum", "MVC", "OOP"],
   };
 
   return (
-    <section className="mb-8">
-      <h2 className="text-xl md:text-2xl font-bold mb-4 text-[#1e3a5f] tracking-tight">
-        TECHNICAL SKILLS
+    <section className="py-8">
+      <h2 className="text-2xl font-bold mb-6 text-blue-800">
+        🛠️ Technical Skills
       </h2>
-      <div className="bg-white p-5 md:p-6 rounded-lg shadow-md border border-gray-100 space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {Object.entries(skills).map(([category, skillList]) => (
-          <div key={category} className="mb-2">
-            <h3 className="font-semibold text-[#1e3a5f] mb-1">{category}</h3>
-            <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          <div key={category} className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="font-bold text-lg mb-2 text-blue-700">{category}</h3>
+            <div className="flex flex-wrap gap-2">
               {skillList.map((skill) => (
-                <li key={skill} className="text-sm">
+                <span
+                  key={skill}
+                  className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+                >
                   {skill}
-                </li>
+                </span>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </div>
