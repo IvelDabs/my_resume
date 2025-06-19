@@ -22,12 +22,8 @@ const SoftSkills = () => {
       <div className="bg-[#25406b] bg-opacity-80 p-5 md:p-6 rounded-lg shadow-md border border-white/10 space-y-2">
         {passions.map((passion, index) => (
           <div key={index} className="mb-4">
-            <h3 className="font-semibold text-sm mb-1">
-              ✓ {passion.title}
-            </h3>
-            <p className="text-sm opacity-90 pl-4">
-              {passion.description}
-            </p>
+            <h3 className="font-semibold text-sm mb-1">✓ {passion.title}</h3>
+            <p className="text-sm opacity-90 pl-4">{passion.description}</p>
           </div>
         ))}
       </div>

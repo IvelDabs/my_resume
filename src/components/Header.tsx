@@ -29,10 +29,7 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-center gap-2">
             <span>📧</span>
-            <a
-              href="mailto:riley@thedev.com"
-              className="hover:text-blue-200"
-            >
+            <a href="mailto:riley@thedev.com" className="hover:text-blue-200">
               riley@thedev.com
             </a>
           </div>
@@ -42,10 +39,7 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-center gap-2">
             <span>🔗</span>
-            <a
-              href="https://linkedin.com"
-              className="hover:text-blue-200"
-            >
+            <a href="https://linkedin.com" className="hover:text-blue-200">
               linkedin.com
             </a>
           </div>
