@@ -1,27 +1,45 @@
 import React from "react";
 
 const Certifications = () => {
-  const certifications = [
-    // "AWS Certified Developer – Associate",
-    // "Microsoft Certified: Azure Fundamentals",
-    "Scrimba - Frontend Developer Career Path",
-    "FreeCodeCamp Full Stack Web Development Certificate",
+  const keyAchievements = [
+    {
+      title: "Developed High-Performance System",
+      description:
+        "Led a team to develop a system with 20% increased uptime, improving scalability and performance.",
+    },
+    {
+      title: "Reduced Bug Rate",
+      description:
+        "Implemented testing protocols resulting in a 35% bug rate reduction through improved best coding practices.",
+    },
+    {
+      title: "Enhanced User Interaction",
+      description:
+        "Implemented user interface UIs by 30%, improving overall user satisfaction significantly.",
+    },
+    {
+      title: "Improved System Response",
+      description:
+        "Devised monitoring strategies that enhanced operational efficiency.",
+    },
   ];
 
   return (
-    <section className="py-8">
-      <h2 className="text-2xl font-bold mb-6 text-blue-800">
-        🧩 Certifications
+    <section className="mb-8">
+      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">
+        KEY ACHIEVEMENTS
       </h2>
-      <div className="bg-white p-6 rounded-lg shadow-md">
-        <ul className="space-y-3">
-          {certifications.map((cert, index) => (
-            <li key={index} className="flex items-center">
-              <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-              <span className="text-gray-700">{cert}</span>
-            </li>
-          ))}
-        </ul>
+      <div className="space-y-4">
+        {keyAchievements.map((achievement, index) => (
+          <div key={index} className="mb-2">
+            <h3 className="text-[#1e3a5f] font-semibold text-sm">
+              ✓ {achievement.title}
+            </h3>
+            <p className="text-gray-700 text-sm pl-4">
+              {achievement.description}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );

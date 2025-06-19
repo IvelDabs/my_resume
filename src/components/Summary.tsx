@@ -2,19 +2,15 @@ import React from "react";
 
 const Summary = () => {
   return (
-    <section className="py-8">
-      <h2 className="text-2xl font-bold mb-6 text-blue-800">
-        🧠 Professional Summary
-      </h2>
-      <div className="bg-white p-6 rounded-lg shadow-md">
-        <p className="text-gray-700 leading-relaxed">
-          Versatile and results-driven Full Stack Software Developer with proven
-          experience in designing, developing, and deploying robust web
-          applications and scalable backend systems. Proven ability to lead
-          cross-functional teams, deliver projects in Agile environments, and
-          drive innovation across the software development lifecycle. Passionate
-          about clean code, performance optimization, and emerging technologies
-          in the Software Engineering Industry.
+    <section className="mb-8">
+      <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]">SUMMARY</h2>
+      <div className="text-gray-700 leading-relaxed">
+        <p>
+          Senior Software Engineer with over 5 years in software development,
+          specializing in scalable system architecture and UI design. Proven
+          track record in creating cybersecurity solutions. Expert in Java,
+          Kotlin, and Kubernetes with noteworthy achievements in performance
+          optimization and system reliability.
         </p>
       </div>
     </section>
